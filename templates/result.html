@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Result</title>
+</head>
+<body>
+    <h1>Review Analysis Result</h1>
+    <h3>Review:</h3>
+    <p>{{ review }}</p>
+    <h3>Prediction Results:</h3>
+    <p>Predicted Class: {{ result['final_label'] }}</p>
+    <p>Ensemble Probability: {{ result['ensemble_prob'] }}</p>
+    <h3>SHAP Explanation for BERT:</h3>
+    <img src="{{ url_for('static', filename='bert_waterfall.png') }}" alt="SHAP BERT Waterfall Plot">
+    <h3>SHAP Explanation for Metadata:</h3>
+    <img src="{{ url_for('static', filename='metadata_bar.png') }}" alt="SHAP Metadata Bar Plot">
+</body>
+</html>
