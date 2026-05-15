@@ -12,6 +12,32 @@ This project detects fake product reviews using NLP and a BERT-based machine lea
 - Real-time prediction system
 
 ---
+## 📸 UI Demonstration
+
+The following screenshots show different scenarios of the fake review detection system.
+
+---
+
+### 🔹 Scenario 1:  User inputs a clearly suspicious, overly positive review
+![Web page after the review is inputted](Screenshots/Screenshot%202026-05-15%20165249.png)
+![Scenario 1](screenshots/scenario1/img2.png)
+![Scenario 1](screenshots/scenario1/img3.png)
+
+---
+
+### 🔹 Scenario 2: Model Processing Output
+![Scenario 2](screenshots/scenario2/img1.png)
+![Scenario 2](screenshots/scenario2/img2.png)
+![Scenario 2](screenshots/scenario2/img3.png)
+
+---
+
+### 🔹 Scenario 3: Final Classification Result
+![Scenario 3](screenshots/scenario3/img1.png)
+![Scenario 3](screenshots/scenario3/img2.png)
+![Scenario 3](screenshots/scenario3/img3.png)
+
+---
 
 ## 🧠 Model Info
 The model uses BERT for text classification with vectorization and scaling techniques.
