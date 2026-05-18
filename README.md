@@ -18,24 +18,69 @@ The following screenshots show different scenarios of the fake review detection 
 
 ---
 
-### 🔹 Scenario 1:  User inputs a clearly suspicious, overly positive review
-![Web page after the review is inputted](Screenshots/Screenshot%202026-05-15%20165249.png)
-![Scenario 1](screenshots/scenario1/img2.png)
-![Scenario 1](screenshots/scenario1/img3.png)
+### 🔹 Scenario 1: User inputs a clearly suspicious, overly positive review
+
+<p align="center">
+  <img src="Screenshots/Screenshot%202026-05-15%20165249.png" width="350"/>
+</p>
+
+<p align="center"><i>Web page after the review is inputted</i></p>
+
+<p align="center">
+  <img src="Screenshots/Screenshot%202026-05-15%20165449.png" width="350"/>
+</p>
+
+<p align="center"><i>BERT waterfall plot visualization</i></p>
+
+<p align="center">
+  <img src="Screenshots/Screenshot%202026-05-15%20165535.png" width="350"/>
+</p>
+
+<p align="center"><i>Metadata feature analysis bar plot</i></p>
 
 ---
 
-### 🔹 Scenario 2: Model Processing Output
-![Scenario 2](screenshots/scenario2/img1.png)
-![Scenario 2](screenshots/scenario2/img2.png)
-![Scenario 2](screenshots/scenario2/img3.png)
+### 🔹 Scenario 2: User inputs a detailed, balanced genuine review
+
+<p align="center">
+  <img src="Screenshots/Screenshot%202026-05-15%20165645.png" width="350"/>
+</p>
+
+<p align="center"><i>Web page after the review is inputted</i></p>
+
+<p align="center">
+  <img src="Screenshots/Screenshot%202026-05-15%20165738.png" width="350"/>
+</p>
+
+<p align="center"><i>BERT waterfall plot visualization</i></p>
+
+<p align="center">
+  <img src="Screenshots/Screenshot%202026-05-15%20165815.png" width="350"/>
+</p>
+
+<p align="center"><i>Metadata feature analysis bar plot</i></p>
 
 ---
 
-### 🔹 Scenario 3: Final Classification Result
-![Scenario 3](screenshots/scenario3/img1.png)
-![Scenario 3](screenshots/scenario3/img2.png)
-![Scenario 3](screenshots/scenario3/img3.png)
+### 🔹 Scenario 3: User inputs a short, vague review (potentially harder to classify)
+
+<p align="center">
+  <img src="Screenshots/Screenshot%202026-05-15%20165902.png" width="350"/>
+</p>
+
+<p align="center"><i>Web page after the review is inputted</i></p>
+
+<p align="center">
+  <img src="Screenshots/Screenshot%202026-05-15%20165944.png" width="350"/>
+</p>
+
+<p align="center"><i>BERT waterfall plot visualization</i></p>
+
+<p align="center">
+  <img src="Screenshots/Screenshot%202026-05-15%20170012.png" width="350"/>
+</p>
+
+<p align="center"><i>Metadata feature analysis bar plot</i></p>
 
 ---
 
